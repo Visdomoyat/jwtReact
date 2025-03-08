@@ -16,7 +16,7 @@ const {user} = useContext(UserContext)
    <>
    <NavBar />
 <Routes>
-  <Route path='/' element={user ? <Dashboard/> : <Landing/>} />
+  <Route path='/' element={user ? <Dashboard /> : <Landing />} />
   <Route path='/sign-up' element={<SignUpForm />} />
   <Route path='/sign-in' element={<SignInForm />} />
 </Routes>
